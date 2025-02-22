@@ -19,5 +19,5 @@ app.set('view engine', 'ejs');
 app.use('/' ,require('./config/routes'));
 
 
-
+//sever
  app.listen(port, ()=> console.log('listening on port' + port));
